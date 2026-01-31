@@ -17,7 +17,7 @@ Secure Admin Portal: A restricted area for UIDAI officials to monitor regional r
 
 
 Component                  Technology
-Frontend Framework ----> Flutter (Dart)
+Frontend Framework ----> Flutter (Dart) ,
 Intelligence ----> Google Gemini AI (Generative AI SDK) ,
 Mapping & GIS ----> Google Maps SDK for Flutter ,
 Location Services ----> Geolocator API & Google Directions Logic ,
