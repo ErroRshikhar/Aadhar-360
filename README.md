@@ -31,10 +31,10 @@ To maintain security and clean versioning, this repository provides the core log
 Ensure you place the following files in their respective directories:
 
    File                       Destination Path
-lib/ (All folders/files)              /lib
-pubspec.yaml                      Project Root /
-google-services.json              /android/app/
-AndroidManifest.xml            /android/app/src/main/
+lib/ (All folders/files) --------> /lib
+pubspec.yaml   ---------------> Project Root /
+google-services.json ------------> /android/app/
+AndroidManifest.xml ---------> /android/app/src/main/
 
 2. API Key Configuration
 This project requires active API keys for Google Maps and Gemini AI.
