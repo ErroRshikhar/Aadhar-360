@@ -18,11 +18,11 @@ Secure Admin Portal: A restricted area for UIDAI officials to monitor regional r
 
 Component                  Technology
 Frontend Framework ----> Flutter (Dart)
-Intelligence ----> Google Gemini AI (Generative AI SDK)
-Mapping & GIS ----> Google Maps SDK for Flutter
-Location Services ----> Geolocator API & Google Directions Logic
-Backend (Simulated) ----> Firebase Core & Cloud Firestore
-State Management ----> ValueNotifier & Reactive UI Patterns
+Intelligence ----> Google Gemini AI (Generative AI SDK) ,
+Mapping & GIS ----> Google Maps SDK for Flutter ,
+Location Services ----> Geolocator API & Google Directions Logic ,
+Backend (Simulated) ----> Firebase Core & Cloud Firestore ,
+State Management ----> ValueNotifier & Reactive UI Patterns ,
 
 📂 Repository Structure & Requirements
 To maintain security and clean versioning, this repository provides the core logic and configuration templates. Follow the guide below to set up the local environment.
@@ -31,10 +31,10 @@ To maintain security and clean versioning, this repository provides the core log
 Ensure you place the following files in their respective directories:
 
    File                       Destination Path
-lib/ (All folders/files) --------> /lib
-pubspec.yaml   ---------------> Project Root /
-google-services.json ------------> /android/app/
-AndroidManifest.xml ---------> /android/app/src/main/
+lib/ (All folders/files) --------> /lib ,
+pubspec.yaml   ---------------> Project Root / ,
+google-services.json ------------> /android/app/ ,
+AndroidManifest.xml ---------> /android/app/src/main/ ,
 
 2. API Key Configuration
 This project requires active API keys for Google Maps and Gemini AI.
