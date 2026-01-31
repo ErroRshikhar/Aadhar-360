@@ -1,0 +1,19 @@
+import 'package:google_maps_flutter/google_maps_flutter.dart';
+
+class AadhaarCenter {
+  final String id;
+  final String name;
+  final int stressScore;
+  final String issues;
+  final LatLng location;
+  final String prediction;
+
+  AadhaarCenter({
+    required this.id,
+    required this.name,
+    required this.stressScore,
+    this.issues = "Operational",
+    required this.location,
+    this.prediction = "Stable",
+  });
+}
