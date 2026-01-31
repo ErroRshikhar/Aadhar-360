@@ -1,0 +1,28 @@
+name: aadhar_360
+description: A new Flutter project for Aadhaar services in Raipur.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.30.1
+  cloud_firestore: ^4.17.5
+  geolocator: ^11.0.0
+  google_maps_flutter: ^2.5.3
+  google_generative_ai: ^0.2.2
+  intl: ^0.19.0
+  flutter_polyline_points: ^2.1.0 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
