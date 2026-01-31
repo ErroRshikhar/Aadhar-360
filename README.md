@@ -30,7 +30,7 @@ To maintain security and clean versioning, this repository provides the core log
 1. Essential File Placement
 Ensure you place the following files in their respective directories:
 
-       File                       Destination Path
+   File                       Destination Path
 lib/ (All folders/files)              /lib
 pubspec.yaml                      Project Root /
 google-services.json              /android/app/
